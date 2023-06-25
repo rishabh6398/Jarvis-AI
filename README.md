@@ -2,7 +2,7 @@
 This project is a web application that leverages speech recognition, natural language processing, and artificial intelligence to provide an interactive voice-based assistant. The application allows users to speak into their device's microphone, transcribes the speech into text using Google Cloud Speech-to-Text, processes the text using OpenAI GPT-3, generates a response, and converts the response into speech using Google Cloud Text-to-Speech. The generated speech is played back to the user.
 
 ## Features
-Real-time speech recognition: The application utilizes the browser's speech recognition capabilities to transcribe spoken words into text in real time.
+Real-time speech recognition: The application utilizes the browser's speech recognition capabilities to transcribe spoken words into text in real-time.
 
 Natural language processing: The transcribed text is processed using OpenAI GPT-3, an advanced natural language processing model, to generate contextually relevant and meaningful responses.
 
@@ -24,7 +24,7 @@ Google Cloud Text-to-Speech: The Google Cloud service for converting text into n
 OpenAI GPT-3: An advanced natural language processing model used for generating contextually relevant responses.
 
 ## Deployment
-The application can be deployed to various platforms, such as Heroku, Glitch, or Vercel, to make it publicly accessible. Choose the platform that best suits your requirements and follow the deployment instructions provided by the platform.
+The application is deployed on Glitch and can be deployed further using the Glitch console. 
 
 ## Getting Started
 To run the application locally, follow these steps:
