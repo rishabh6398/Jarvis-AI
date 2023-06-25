@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+app.use(express.static(__dirname));
 const http = require('http').Server(app);
 const io = require('socket.io')(http);
 const { SpeechClient } = require('@google-cloud/speech');
